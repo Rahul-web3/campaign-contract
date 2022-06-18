@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://Rahul-web3.github.io/campaign-contract",
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Rahul Dey",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "@truffle/hdwallet-provider": "^2.0.3",
     "fs-extra": "^10.0.1",
     "ganache-cli": "^6.12.2",
+    "gh-pages": "^4.0.0",
     "mocha": "^9.2.1",
     "next": "^12.1.0",
     "next-routes": "^1.4.2",
