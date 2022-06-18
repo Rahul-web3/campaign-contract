@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Rahul-web3.github.io/campaign-contract",
   "scripts": {
     "test": "mocha",
     "dev": "node server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "author": "Rahul Dey",
   "license": "ISC",
